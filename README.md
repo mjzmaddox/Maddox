@@ -80,11 +80,15 @@ This ELK server is configured to monitor the following machines:
 10.0.0.9 & 10.0.0.10 
 - _TODO: List the IP addresses of the machines you are monitoring_
 
-We have installed the following Beats on these machines:  10.0.0.9 & 10.0.0.10 
-- _TODO: Specify which Beats you successfully installed_
+We have installed the following Beats on these machines:
+- 10.0.0.9
+- 10.0.0.10
 
 These Beats allow us to collect the following information from each machine:
-- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
+- Filebeat collects data about the file systems. As an example Filebeat can collect data on /var/log/apache2/* which would be used to view Apache Access Logs
+- Metricbeat collects machine metrics such as System, MYSQL, and Docker, as an example. 
+- Metricbeat is configured to use the system module to collect system metrics like CPU or network. 
+
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
