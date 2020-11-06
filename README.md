@@ -77,12 +77,12 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-10.0.0.9 & 10.0.0.10 
-- _TODO: List the IP addresses of the machines you are monitoring_
+- 10.0.0.9 
+- 10.0.0.10 
 
 We have installed the following Beats on these machines:
-- 10.0.0.9
-- 10.0.0.10
+- Filebeat
+- Metricbeat
 
 These Beats allow us to collect the following information from each machine:
 - Filebeat collects data about the file systems. As an example Filebeat can collect data on /var/log/apache2/* which would be used to view Apache Access Logs
