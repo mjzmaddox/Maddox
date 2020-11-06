@@ -23,8 +23,8 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly ___available__, in addition to restricting _access____ to the network.
-- _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?_
+Load balancing ensures that the application will be highly available, in addition to restricting access to the network.
+
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _files system___ and system __uptime___.
 - _TODO: What does Filebeat watch for?_
