@@ -46,14 +46,13 @@ Only the JUMPBOX machine can accept connections from the Internet. Access to thi
 “PUBLIC IP HERE” 
 
 
-Machines within the network can only be accessed by _JUMPBOX / 10.0.0.4____.
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
+Machines within the network can only be accessed by JUMPBOX IP of 10.0.0.4.
 
 A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
+| Jump Box |       Yes           | 10.0.0.1 10.0.0.2    |
 |          |                     |                      |
 |          |                     |                      |
 
